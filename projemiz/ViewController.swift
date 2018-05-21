@@ -7,19 +7,48 @@
 //
 
 import UIKit
-
+import Firebase
+import FirebaseAuth
 class ViewController: UIViewController {
-
+    var userUid: String!
+    
+    @IBOutlet weak var mail: UITextField!
+    @IBOutlet weak var sifre: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "images")!)
+        self.sifre.isSecureTextEntry = true
         // Do any additional setup after loading the view, typically from a nib.
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    @IBAction func giris(_ sender: Any) {
+        if self.mail.text! != "" || self.sifre.text! != "" {
+        Auth.auth().signIn(withEmail: self.mail.text!, password: self.sifre.text!){ (user, error) in
+            if error == nil{
+                self.mail.text = ""
+                self.sifre.text = ""
+                self.performSegue(withIdentifier: "anasayfa", sender: nil)
+                
+            }else{
+                 self.hataMesaji(title: "Hata", message: "Kullanıcı Adı veya Şifre Yanlış!")
+            }
+        }
+        }else{
+            self.hataMesaji(title: "Hata", message: "Boş alan bırakmayınız!")
+        }
     }
 
-
+    func hataMesaji(title:String,message:String) -> Void {
+        let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
+        let alertAction = UIAlertAction(title: "Tamam", style: .cancel, handler: nil)
+        alert.addAction(alertAction)
+        self.present(alert, animated: true, completion: nil)
+    }
+    /*üstteki saat olan kısım gizlendi*/
+    
+    override var prefersStatusBarHidden: Bool{
+        return true
+    }
 }
 

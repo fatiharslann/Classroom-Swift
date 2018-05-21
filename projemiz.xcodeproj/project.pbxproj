@@ -7,14 +7,62 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D0815FB20A8E71A00324D7F /* MesajlarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0815FA20A8E71A00324D7F /* MesajlarTableViewCell.swift */; };
+		3D0815FD20A8FE7700324D7F /* Mesaj.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0815FC20A8FE7700324D7F /* Mesaj.swift */; };
+		3D0815FF20A900E700324D7F /* GelenMesajTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0815FE20A900E700324D7F /* GelenMesajTableViewCell.swift */; };
+		3D08160120A900F700324D7F /* GidenMesajTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D08160020A900F700324D7F /* GidenMesajTableViewCell.swift */; };
+		3D27859120A8A0B200C2359E /* Paylasim.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D27859020A8A0B200C2359E /* Paylasim.swift */; };
+		3D469BE720AC67EF0004EEFD /* KullanicilarCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D469BE120AC67EE0004EEFD /* KullanicilarCollectionViewCell.swift */; };
+		3D469BE820AC67EF0004EEFD /* ProfilAyar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D469BE220AC67EE0004EEFD /* ProfilAyar.swift */; };
+		3D469BEA20AC67EF0004EEFD /* AyarlarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D469BE420AC67EF0004EEFD /* AyarlarController.swift */; };
+		3D469BEB20AC67EF0004EEFD /* Bildirim.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D469BE520AC67EF0004EEFD /* Bildirim.swift */; };
+		3D469BEC20AC67EF0004EEFD /* BildirimlerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D469BE620AC67EF0004EEFD /* BildirimlerTableViewCell.swift */; };
+		3D471D4220A97BEF009B83C5 /* RadiusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D471D4120A97BEF009B83C5 /* RadiusView.swift */; };
+		3DA4C1B320A791A4005112F0 /* GrupAyrintiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA4C1B220A791A4005112F0 /* GrupAyrintiViewController.swift */; };
+		3DB1120C20A65FFB00496239 /* GruplarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB1120B20A65FFB00496239 /* GruplarViewController.swift */; };
+		3DB1120E20A6692F00496239 /* GrupTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB1120D20A6692F00496239 /* GrupTableViewCell.swift */; };
+		3DB1121020A6824000496239 /* Grup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB1120F20A6824000496239 /* Grup.swift */; };
+		3DE8C7C820A86DE5006532F1 /* PaylasimTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE8C7C720A86DE5006532F1 /* PaylasimTableViewCell.swift */; };
+		50932DF6E8E4210A43B51E4E /* Pods_projemiz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E76CAB4BD98CBFF37AB91FB /* Pods_projemiz.framework */; };
+		8100225C209F71F60067CAF4 /* RadiusButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8100225B209F71F60067CAF4 /* RadiusButton.swift */; };
 		813EC0EA209C945300B48569 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813EC0E9209C945300B48569 /* AppDelegate.swift */; };
 		813EC0EC209C945300B48569 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813EC0EB209C945300B48569 /* ViewController.swift */; };
 		813EC0EF209C945300B48569 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 813EC0ED209C945300B48569 /* Main.storyboard */; };
 		813EC0F1209C945300B48569 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 813EC0F0209C945300B48569 /* Assets.xcassets */; };
 		813EC0F4209C945300B48569 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 813EC0F2209C945300B48569 /* LaunchScreen.storyboard */; };
+		8181B2CB20A5D2C100706E81 /* Profil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8181B2CA20A5D2C100706E81 /* Profil.swift */; };
+		81903B73209DA30100D89C87 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 81903B72209DA30100D89C87 /* GoogleService-Info.plist */; };
+		81A1EEE8209CD06B00CF758D /* UyeOlController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A1EEE7209CD06B00CF758D /* UyeOlController.swift */; };
+		81A1EEEA209CF16A00CF758D /* AnasayfaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A1EEE9209CF16A00CF758D /* AnasayfaController.swift */; };
+		81A1EEEC209CF17D00CF758D /* BildirimlerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A1EEEB209CF17D00CF758D /* BildirimlerController.swift */; };
+		81A1EEF0209CF19D00CF758D /* MesajlarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A1EEEF209CF19D00CF758D /* MesajlarController.swift */; };
+		81A1EEF2209D0F8100CF758D /* ImageBorderRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A1EEF1209D0F8100CF758D /* ImageBorderRadius.swift */; };
+		81D767A320A0D12E0086D524 /* MesajAtViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D767A220A0D12E0086D524 /* MesajAtViewController.swift */; };
+		81D767A520A100ED0086D524 /* DuyurularTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D767A420A100ED0086D524 /* DuyurularTableViewCell.swift */; };
+		81E6002D20A4739A00D0996C /* Duyuru.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E6002C20A4739A00D0996C /* Duyuru.swift */; };
+		81EDBE6D20A585670057CCB9 /* Kullanici.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EDBE6C20A585670057CCB9 /* Kullanici.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3D0815FA20A8E71A00324D7F /* MesajlarTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MesajlarTableViewCell.swift; sourceTree = "<group>"; };
+		3D0815FC20A8FE7700324D7F /* Mesaj.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mesaj.swift; sourceTree = "<group>"; };
+		3D0815FE20A900E700324D7F /* GelenMesajTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GelenMesajTableViewCell.swift; sourceTree = "<group>"; };
+		3D08160020A900F700324D7F /* GidenMesajTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GidenMesajTableViewCell.swift; sourceTree = "<group>"; };
+		3D27859020A8A0B200C2359E /* Paylasim.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paylasim.swift; sourceTree = "<group>"; };
+		3D469BE120AC67EE0004EEFD /* KullanicilarCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KullanicilarCollectionViewCell.swift; sourceTree = "<group>"; };
+		3D469BE220AC67EE0004EEFD /* ProfilAyar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfilAyar.swift; sourceTree = "<group>"; };
+		3D469BE420AC67EF0004EEFD /* AyarlarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AyarlarController.swift; sourceTree = "<group>"; };
+		3D469BE520AC67EF0004EEFD /* Bildirim.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bildirim.swift; sourceTree = "<group>"; };
+		3D469BE620AC67EF0004EEFD /* BildirimlerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BildirimlerTableViewCell.swift; sourceTree = "<group>"; };
+		3D471D4120A97BEF009B83C5 /* RadiusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadiusView.swift; sourceTree = "<group>"; };
+		3DA4C1B220A791A4005112F0 /* GrupAyrintiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrupAyrintiViewController.swift; sourceTree = "<group>"; };
+		3DB1120B20A65FFB00496239 /* GruplarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GruplarViewController.swift; sourceTree = "<group>"; };
+		3DB1120D20A6692F00496239 /* GrupTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrupTableViewCell.swift; sourceTree = "<group>"; };
+		3DB1120F20A6824000496239 /* Grup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grup.swift; sourceTree = "<group>"; };
+		3DE8C7C720A86DE5006532F1 /* PaylasimTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaylasimTableViewCell.swift; sourceTree = "<group>"; };
+		7017649BC1DAB6F7F30EE2AB /* Pods-projemiz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-projemiz.release.xcconfig"; path = "Pods/Target Support Files/Pods-projemiz/Pods-projemiz.release.xcconfig"; sourceTree = "<group>"; };
+		7E76CAB4BD98CBFF37AB91FB /* Pods_projemiz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_projemiz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8100225B209F71F60067CAF4 /* RadiusButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadiusButton.swift; sourceTree = "<group>"; };
 		813EC0E6209C945300B48569 /* projemiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = projemiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		813EC0E9209C945300B48569 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		813EC0EB209C945300B48569 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +70,18 @@
 		813EC0F0209C945300B48569 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		813EC0F3209C945300B48569 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		813EC0F5209C945300B48569 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8181B2CA20A5D2C100706E81 /* Profil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profil.swift; sourceTree = "<group>"; };
+		81903B72209DA30100D89C87 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		81A1EEE7209CD06B00CF758D /* UyeOlController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UyeOlController.swift; sourceTree = "<group>"; };
+		81A1EEE9209CF16A00CF758D /* AnasayfaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnasayfaController.swift; sourceTree = "<group>"; };
+		81A1EEEB209CF17D00CF758D /* BildirimlerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BildirimlerController.swift; sourceTree = "<group>"; };
+		81A1EEEF209CF19D00CF758D /* MesajlarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MesajlarController.swift; sourceTree = "<group>"; };
+		81A1EEF1209D0F8100CF758D /* ImageBorderRadius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageBorderRadius.swift; sourceTree = "<group>"; };
+		81D767A220A0D12E0086D524 /* MesajAtViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MesajAtViewController.swift; sourceTree = "<group>"; };
+		81D767A420A100ED0086D524 /* DuyurularTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuyurularTableViewCell.swift; sourceTree = "<group>"; };
+		81E6002C20A4739A00D0996C /* Duyuru.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Duyuru.swift; sourceTree = "<group>"; };
+		81EDBE6C20A585670057CCB9 /* Kullanici.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kullanici.swift; sourceTree = "<group>"; };
+		EE62B45DBC8B37E2C28819A2 /* Pods-projemiz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-projemiz.debug.xcconfig"; path = "Pods/Target Support Files/Pods-projemiz/Pods-projemiz.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +89,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50932DF6E8E4210A43B51E4E /* Pods_projemiz.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		46A888716B76EF4523C88154 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7E76CAB4BD98CBFF37AB91FB /* Pods_projemiz.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4F1E6C99B9B4503CF2EC3E47 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EE62B45DBC8B37E2C28819A2 /* Pods-projemiz.debug.xcconfig */,
+				7017649BC1DAB6F7F30EE2AB /* Pods-projemiz.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		813EC0DD209C945300B48569 = {
 			isa = PBXGroup;
 			children = (
 				813EC0E8209C945300B48569 /* projemiz */,
 				813EC0E7209C945300B48569 /* Products */,
+				4F1E6C99B9B4503CF2EC3E47 /* Pods */,
+				46A888716B76EF4523C88154 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,12 +134,40 @@
 		813EC0E8209C945300B48569 /* projemiz */ = {
 			isa = PBXGroup;
 			children = (
+				3D469BE420AC67EF0004EEFD /* AyarlarController.swift */,
+				3D469BE520AC67EF0004EEFD /* Bildirim.swift */,
+				3D469BE620AC67EF0004EEFD /* BildirimlerTableViewCell.swift */,
+				3D469BE120AC67EE0004EEFD /* KullanicilarCollectionViewCell.swift */,
+				3D469BE220AC67EE0004EEFD /* ProfilAyar.swift */,
+				3DB1120B20A65FFB00496239 /* GruplarViewController.swift */,
 				813EC0E9209C945300B48569 /* AppDelegate.swift */,
 				813EC0EB209C945300B48569 /* ViewController.swift */,
+				81903B72209DA30100D89C87 /* GoogleService-Info.plist */,
 				813EC0ED209C945300B48569 /* Main.storyboard */,
 				813EC0F0209C945300B48569 /* Assets.xcassets */,
 				813EC0F2209C945300B48569 /* LaunchScreen.storyboard */,
 				813EC0F5209C945300B48569 /* Info.plist */,
+				81A1EEE7209CD06B00CF758D /* UyeOlController.swift */,
+				81A1EEE9209CF16A00CF758D /* AnasayfaController.swift */,
+				81A1EEEB209CF17D00CF758D /* BildirimlerController.swift */,
+				81A1EEEF209CF19D00CF758D /* MesajlarController.swift */,
+				81A1EEF1209D0F8100CF758D /* ImageBorderRadius.swift */,
+				8100225B209F71F60067CAF4 /* RadiusButton.swift */,
+				81D767A220A0D12E0086D524 /* MesajAtViewController.swift */,
+				81D767A420A100ED0086D524 /* DuyurularTableViewCell.swift */,
+				81E6002C20A4739A00D0996C /* Duyuru.swift */,
+				81EDBE6C20A585670057CCB9 /* Kullanici.swift */,
+				8181B2CA20A5D2C100706E81 /* Profil.swift */,
+				3DB1120D20A6692F00496239 /* GrupTableViewCell.swift */,
+				3DB1120F20A6824000496239 /* Grup.swift */,
+				3DA4C1B220A791A4005112F0 /* GrupAyrintiViewController.swift */,
+				3DE8C7C720A86DE5006532F1 /* PaylasimTableViewCell.swift */,
+				3D27859020A8A0B200C2359E /* Paylasim.swift */,
+				3D0815FA20A8E71A00324D7F /* MesajlarTableViewCell.swift */,
+				3D0815FC20A8FE7700324D7F /* Mesaj.swift */,
+				3D0815FE20A900E700324D7F /* GelenMesajTableViewCell.swift */,
+				3D08160020A900F700324D7F /* GidenMesajTableViewCell.swift */,
+				3D471D4120A97BEF009B83C5 /* RadiusView.swift */,
 			);
 			path = projemiz;
 			sourceTree = "<group>";
@@ -71,9 +179,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 813EC0F8209C945300B48569 /* Build configuration list for PBXNativeTarget "projemiz" */;
 			buildPhases = (
+				423207480A7DD9ED24B6FD60 /* [CP] Check Pods Manifest.lock */,
 				813EC0E2209C945300B48569 /* Sources */,
 				813EC0E3209C945300B48569 /* Frameworks */,
 				813EC0E4209C945300B48569 /* Resources */,
+				A4C8FD6D87A72F4B23E7F10F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,6 +234,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				813EC0F4209C945300B48569 /* LaunchScreen.storyboard in Resources */,
+				81903B73209DA30100D89C87 /* GoogleService-Info.plist in Resources */,
 				813EC0F1209C945300B48569 /* Assets.xcassets in Resources */,
 				813EC0EF209C945300B48569 /* Main.storyboard in Resources */,
 			);
@@ -131,13 +242,85 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		423207480A7DD9ED24B6FD60 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-projemiz-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4C8FD6D87A72F4B23E7F10F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-projemiz/Pods-projemiz-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-projemiz/Pods-projemiz-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		813EC0E2209C945300B48569 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D27859120A8A0B200C2359E /* Paylasim.swift in Sources */,
+				81EDBE6D20A585670057CCB9 /* Kullanici.swift in Sources */,
+				81D767A520A100ED0086D524 /* DuyurularTableViewCell.swift in Sources */,
+				3DA4C1B320A791A4005112F0 /* GrupAyrintiViewController.swift in Sources */,
+				3DB1120C20A65FFB00496239 /* GruplarViewController.swift in Sources */,
+				3DB1121020A6824000496239 /* Grup.swift in Sources */,
+				81D767A320A0D12E0086D524 /* MesajAtViewController.swift in Sources */,
+				3D08160120A900F700324D7F /* GidenMesajTableViewCell.swift in Sources */,
+				3D469BE820AC67EF0004EEFD /* ProfilAyar.swift in Sources */,
+				3D469BE720AC67EF0004EEFD /* KullanicilarCollectionViewCell.swift in Sources */,
+				3D469BEA20AC67EF0004EEFD /* AyarlarController.swift in Sources */,
 				813EC0EC209C945300B48569 /* ViewController.swift in Sources */,
+				81E6002D20A4739A00D0996C /* Duyuru.swift in Sources */,
+				81A1EEF0209CF19D00CF758D /* MesajlarController.swift in Sources */,
+				3D0815FF20A900E700324D7F /* GelenMesajTableViewCell.swift in Sources */,
+				3D0815FD20A8FE7700324D7F /* Mesaj.swift in Sources */,
+				3DE8C7C820A86DE5006532F1 /* PaylasimTableViewCell.swift in Sources */,
+				8100225C209F71F60067CAF4 /* RadiusButton.swift in Sources */,
+				3D469BEB20AC67EF0004EEFD /* Bildirim.swift in Sources */,
+				3D0815FB20A8E71A00324D7F /* MesajlarTableViewCell.swift in Sources */,
+				81A1EEF2209D0F8100CF758D /* ImageBorderRadius.swift in Sources */,
 				813EC0EA209C945300B48569 /* AppDelegate.swift in Sources */,
+				81A1EEE8209CD06B00CF758D /* UyeOlController.swift in Sources */,
+				81A1EEEA209CF16A00CF758D /* AnasayfaController.swift in Sources */,
+				3DB1120E20A6692F00496239 /* GrupTableViewCell.swift in Sources */,
+				8181B2CB20A5D2C100706E81 /* Profil.swift in Sources */,
+				3D471D4220A97BEF009B83C5 /* RadiusView.swift in Sources */,
+				81A1EEEC209CF17D00CF758D /* BildirimlerController.swift in Sources */,
+				3D469BEC20AC67EF0004EEFD /* BildirimlerTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +455,7 @@
 		};
 		813EC0F9209C945300B48569 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE62B45DBC8B37E2C28819A2 /* Pods-projemiz.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -286,6 +470,7 @@
 		};
 		813EC0FA209C945300B48569 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7017649BC1DAB6F7F30EE2AB /* Pods-projemiz.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
